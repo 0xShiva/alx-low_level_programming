@@ -13,5 +13,6 @@ int main(void)
 	while (n >= 0x61 && n <= 0x7A)
 		putchar(n++);
 	putchar(0xA);
+	return (0);
 }
 
