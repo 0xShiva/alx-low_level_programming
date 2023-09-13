@@ -3,15 +3,13 @@
 /* betty style doc for function main goes there */
 /**
  * jack_bauer - prints every minute of the day
- * 
  */
-
-void jack_bauer(void)
+void	jack_bauer(void)
 {
-	int	hour;
-	int	min;
+	int	hour, min;
 
 	hour = -1;
+
 	while (++hour < 0x18)
 	{
 		min = -1;
@@ -24,6 +22,6 @@ void jack_bauer(void)
 			_putchar((min % 0xA) + 0x30);
 			_putchar(0xA);
 		}
-
 	}
 }
+
