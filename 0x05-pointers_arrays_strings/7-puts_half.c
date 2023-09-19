@@ -15,7 +15,7 @@ void	puts_half(char *str)
 		;
 	idx = (idx - 1) >> 1;
 	i = -1;
-	while (++i >= idx)
+	while (++i <= idx)
 		_putchar(str[i]);
 	_putchar(0xA);
 }
