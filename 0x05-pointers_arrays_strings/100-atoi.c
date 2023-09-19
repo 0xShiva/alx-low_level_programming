@@ -10,7 +10,6 @@
  * Return: converted string as integer
  */
 
-
 int	_atoi(char *s)
 {
 	size_t	num;
@@ -26,7 +25,7 @@ int	_atoi(char *s)
 			sign *= -0x1;
 		s++;
 	}
-	while (*(s) && ft_isdigit(*s))
+	while (*(s) && (*s > 0x2F && *s < 0x3A))
 	{
 		num = num * 0xA;
 		num += (*(s) - 0x30);
