@@ -5,7 +5,7 @@
 /**
  * _strcpy - copy src string in dest string
  * @dest: string to copy to
- * @n: string to copy from
+ * @src: string to copy from
  * Return: pointer to dest string
  */
 
